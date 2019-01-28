@@ -804,6 +804,7 @@
 "259.solution": "Add/replace the brand in the name of the gas station",
 "260.enabled": true,
 "260.title": "Gas station locked to the wrong level",
+"260.severity": 'W',
 "260.params": {
     "n.title": "{number} minimum level",
     "n": 3,
@@ -864,5 +865,9 @@
   "n.title": "{number} minimum lock level",
   "n":3,
   "regexp.title": "{string} regular expression to match categories that should be locked to {number}",
-  "regexp": "/(GAS_STATION|AIRPORT)/",
+  "regexp": "/(AIRPORT)/",
 },
+"268.enabled": true,
+"268.title": "Venue has no street set",
+"268.problem": "This venue has no street set. Every venue should have a street",
+"268.solution": "Set the street for the venue",

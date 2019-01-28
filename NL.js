@@ -862,6 +862,10 @@
 "215.params": {
     "regexp": "/^5|15|25|.+0$/", // match 5, 15, 25 or other limit with '0' at the end
 },
+"250.enabled": true,
+"250.title": "Plaats heeft geen plaatsnaam ingesteld",
+"250.problem": "Deze plaats heeft geen plaatsnaam ingesteld. Elke plaats zou een plaatsnaam gegesteld moeten hebben",
+"250.solution": "Stel de plaatsnaam in voor deze plaats",
 "251.problem": "De plaats was automatisch aangepast door Waze",
 "251.solution": "Controleer de plaats details en pas deze aan als het nodig is",
 "251.params": {
@@ -899,6 +903,7 @@
 	"n.title": "{number} minimum lock level",
 	"n": 3,
 },
+"261.enabled": false,
 "261.title": "Categorie 'OVERIGE' kan beter niet gebruikt worden",
 "261.problem": "De categorie 'OVERIGE' is niet nuttig. Gebruikers kunnen zoeken op een categorie en OVERIGE bied geen houvast",
 "261.solution": "Selecteer de juiste categorie voor de plaats",
@@ -956,5 +961,8 @@
 	"n.title": "{number} minimum lock level",
 	"n": 3,
 	"regexp.title": "{string} regular expression to match categories that should be locked to {number}",
-	"regexp": "/(GAS_STATION|AIRPORT)/"
+	"regexp": "/(AIRPORT)/"
 },
+"268.title": "Plaats heeft geen straat ingesteld",
+"268.problem": "Deze plaats heeft geen straat ingesteld. Elke plaats zou een straat ingesteld moeten hebben",
+"268.solution": "Stel de straat in voor deze plaats",
