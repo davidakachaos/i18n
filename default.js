@@ -760,6 +760,10 @@
 "250.title": "Venue has no city set",
 "250.problem": "This venue has no city set. Every venue should have a city",
 "250.solution": "Set the city for the venue",
+"250.params": {
+  "regexp.title": "{string} regular expression to match categories that should be excepted from this check",
+  "regexp": "/^(NATURAL_FEATURES|BRIDGE|ISLAND|FOREST_GROVE|SEA_LAKE_POOL|RIVER_STREAM|CANAL|DAM|TUNNEL|JUNCTION_INTERCHANGE)$/",
+},
 "251.enabled": true,
 "251.title": "Venue has last been updated by a bot",
 "251.serverty": 'N',
@@ -871,3 +875,7 @@
 "268.title": "Venue has no street set",
 "268.problem": "This venue has no street set. Every venue should have a street",
 "268.solution": "Set the street for the venue",
+"268.params": {
+  "regexp.title": "{string} regular expression to match categories that should be excepted from this check",
+  "regexp": "/^(NATURAL_FEATURES|BRIDGE|ISLAND|FOREST_GROVE|SEA_LAKE_POOL|RIVER_STREAM|CANAL|DAM|TUNNEL|JUNCTION_INTERCHANGE)$/",
+},
