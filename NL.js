@@ -979,3 +979,7 @@
   "regexp.title": "{string} regular expression to match categories that should be excepted from this check",
   "regexp": "/^(TRANSPORTATION|NATURAL_FEATURES|BRIDGE|ISLAND|FOREST_GROVE|SEA_LAKE_POOL|RIVER_STREAM|CANAL|DAM|TUNNEL|JUNCTION_INTERCHANGE)$/",
 },
+"269.enabled": true,
+"269.title": "Park is eigenlijk bos/bomen?",
+"269.problem": "Dit park lijkt eigenlijk gewoon bos/bomen te zijn? ",
+"269.solution": "If it's a park, please name it. If not, convert it to the forrest/grove category",

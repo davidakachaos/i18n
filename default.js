@@ -876,3 +876,7 @@
   "regexp.title": "{string} regular expression to match categories that should be excepted from this check",
   "regexp": "/^(NATURAL_FEATURES|BRIDGE|ISLAND|FOREST_GROVE|SEA_LAKE_POOL|RIVER_STREAM|CANAL|DAM|TUNNEL|JUNCTION_INTERCHANGE)$/",
 },
+"269.enabled": true,
+"269.title": "Park could be just forrest/grove?",
+"269.problem": "This park could be just a forrest/grove? Please verify if it's really a named park",
+"269.solution": "If it's a park, please name it. If not, convert it to the forrest/grove category",
